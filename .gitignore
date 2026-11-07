@@ -1,0 +1,34 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Private SSH keys
+id_rsa
+id_ed25519
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Backups
+*.bak
+*.old
+*.backup
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
